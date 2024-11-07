@@ -1,10 +1,34 @@
-Aurora - File Upload Service
-Aurora is a robust and efficient file uploading service designed to handle file storage and management seamlessly. This project is built with modern technologies and is ideal for managing file uploads in various environments.
+# 🌌 Aurora - File Upload Service
 
-Features
-Simple File Uploads: Effortlessly upload files with support for multiple file types and sizes.
-Cloud Integration: Upload and store files securely in cloud services such as AWS S3.
-File Metadata: Capture metadata about uploaded files, including file name, type, size, and upload date.
-Error Handling: Comprehensive error handling to ensure smooth file uploads, even with large or corrupted files.
-Secure Access: Upload files securely with features such as encryption and access control.
-Multiple File Uploads: Support for bulk file uploads in a single request.
+**Aurora** is a reliable file uploading service, optimized for secure and efficient file storage and management. This project leverages modern technologies to provide a scalable solution for handling file uploads in diverse environments.
+
+---
+
+## 🚀 Features
+
+- **Simple File Uploads**: Upload files with ease, supporting various file types and sizes.
+- **Cloud Integration**: Secure storage with AWS S3 integration for scalable cloud-based file storage.
+- **File Metadata**: Automatically capture essential metadata like file name, type, size, and upload date.
+- **Robust Error Handling**: Ensure smooth file uploads with comprehensive error checks and handling.
+- **Secure Access**: Optional encryption and access controls for secure file handling.
+- **Bulk Uploads**: Supports batch file uploads in a single request for efficiency.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology       | Description                           |
+|------------------|---------------------------------------|
+| **Go (Golang)**  | Backend logic and API handling       |
+| **AWS S3**       | Cloud storage for file uploads       |
+| **JWT/OAuth**    | Secure authentication and access     |
+| **SQL/NoSQL**    | Database for file metadata storage   |
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/aurora.git
+   cd aurora
